@@ -1,0 +1,33 @@
+    <section class="modal hidden">
+        <div class="edit-flex">
+            <div id="FS-img">
+                <img src="87fD.jpg" alt="DDFirst" id="first-img-lg">
+                <img src="87fCH.jpg" alt="KCSec" id="sec-img-lg">
+            </div>
+            <button class="btn-regret">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn-regret-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m15 15 6-6m0 0-6-6m6 6H9a6 6 0 0 0 0 12h3" />
+                  </svg>                  
+            </button>
+        </div>
+            <form action="#" id="replace-form">
+                <div class="replace-input">
+                    <label for="replace-name-input">Nombre</label>
+                    <input type="text" id="replace-name-input">
+                </div>
+                <div class="replace-input">
+                    <label for="replace-phone-input">Teléfono</label>
+                    <input type="text" id="replace-phone-input">
+                </div>
+            </form>
+            <div class="save-flex">
+                <div id="third-img-container">
+                    <img src="4fCN.jpg" alt="CNThird" id="third-img-lg">
+                </div>
+                <div id="btn-save-container">
+                    <button class="btn-save">Guardar</button>
+                </div>
+            </div>
+    </section>
+<div class="overlay hidden"></div>
+<button class="btn-modal-OP">Open Modal</button>
